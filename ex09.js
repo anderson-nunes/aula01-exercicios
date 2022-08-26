@@ -6,8 +6,7 @@ const n = leitor.questionFloat(
 
 let fatorial = n;
 
-for (i = 1; i<n; i++) {
-  fatorial = fatorial * (n-i);
-  console.log(fatorial + "! = " +fatorial);
-  // fatorial = fatorial * (n - i);
+for (i = 1; i < n; i++) {
+  fatorial = fatorial * i;
+  console.log(fatorial + "! = " + fatorial);
 }
