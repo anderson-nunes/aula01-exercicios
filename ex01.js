@@ -1,7 +1,7 @@
 const leitor = require("readline-sync");
 
 const valorHora = leitor.questionInt(
-  "Digite o valor que você ganha por hora trabalhada: "
+  "Digite o valor que voce ganha por hora trabalhada: "
 );
 
 const horasTrabalhadas = leitor.questionInt(
