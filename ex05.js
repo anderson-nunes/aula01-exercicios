@@ -1,7 +1,7 @@
 const leitor = require("readline-sync");
 
 const diaDasemana = leitor.questionInt(
-  "Digite um numero de 1 a 7 que corresponde ao dia da semana que voce deseja: "
+  "Digite um numero de 1 a 7 que corresponde ao dia da semana que você deseja: "
 );
 
 let error = "Este valor não corresponde a um dia da semana";
