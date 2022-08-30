@@ -11,5 +11,5 @@ const soma = numero1 * 3 + numeroReal;
 const cubo = numeroReal ** 3;
 
 console.log(dobro);
-console.log(soma);
-console.log(cubo);
+// console.log(soma);
+// console.log(cubo);
