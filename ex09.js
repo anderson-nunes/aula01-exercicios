@@ -1,7 +1,7 @@
 const leitor = require("readline-sync");
 
 const n = leitor.questionFloat(
-  "Digite um numero para calcular o seu fatorial: "
+  "Digite um número para calcular o seu fatorial: "
 );
 
 let fatorial = n;
