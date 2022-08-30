@@ -7,4 +7,6 @@ const latas = litros / 18
 const preco = latas * 80
 const galoes = litros / 3.6
 
+console.log(preco)
+
 
