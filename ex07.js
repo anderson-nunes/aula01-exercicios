@@ -1,6 +1,6 @@
 const leitor = require("readline-sync");
 
-const tabuada = leitor.questionInt("Digite um numero multiplo de 3: ");
+const tabuada = leitor.questionInt("Digite um número multiplo de 3: ");
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0) {
