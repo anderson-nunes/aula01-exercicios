@@ -29,31 +29,3 @@ const alunosAbaixoDaMedia = listaAlunos.filter((aluno) => aluno.media <= 7);
 console.log(alunosAcimaDaMedia);
 console.log(alunosAbaixoDaMedia);
 
-// const quantidade = leitor.questionInt(
-//   "Digite a quantidade de alunos na turma: "
-// );
-
-// const nome = leitor.question("Digite o nome do aluno: ");
-
-// let n1 = leitor.questionFloat("Digite a primeira nota: ");
-
-// let n2 = leitor.questionFloat("Digite a segunda nota: ");
-
-// let n3 = leitor.questionFloat("Digite a tericeira nota: ");
-
-// let media = (n1 + n2 + n3) / 3;
-
-// let media;
-
-// for (let i = media; i >= 7; i++) {
-//   let mediaAluno = (n1 + n2 + n3) / 3;
-//   media += mediaAluno;
-// }
-
-// let mediaGeral = media / mediaAluno;
-
-// console.log(mediaGeral);
-
-// for (let i = media; i <= 7; i++) {
-//   console.log(`A sua média é: ${media}`);
-// }
