@@ -1,7 +1,7 @@
 const leitor = require("readline-sync");
 
 const codigo = leitor.questionInt(
-  "Digite o codigo do produto que deseja comprar: "
+  "Digite o código do produto que deseja comprar: "
 );
 
 const quantidade = leitor.questionInt(
