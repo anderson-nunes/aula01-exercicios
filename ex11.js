@@ -9,7 +9,9 @@ for (let i = 1; i <= quantidadeAlunos; i++) {
   const n1 = leitor.questionFloat("Digite a nota 1: ");
   const n2 = leitor.questionFloat("Digite a nota 2: ");
   const n3 = leitor.questionFloat("Digite a nota 3: ");
-  const media = (n1 + n2 + n3) / 3;
+
+  const calculoMedia = (n1 + n2 + n3) / 3;
+  const media = calculoMedia.toFixed(2);
 
   const aluno = {
     nome,
@@ -28,4 +30,3 @@ const alunosAbaixoDaMedia = listaAlunos.filter((aluno) => aluno.media <= 7);
 
 console.log(alunosAcimaDaMedia);
 console.log(alunosAbaixoDaMedia);
-
