@@ -1,7 +1,17 @@
 const leitor = require("readline-sync");
 
-let numero = leitor.questionInt("Digite um número: ");
+let numero = leitor.questionInt("Digite um numero: ");
 
-for (let i = numero; i <= 1000; i++) {
-  console.log(numero);
+let somaPares = 0;
+let somaImpares = 0;
+
+while (numero < 1000) {
+  if (numero % 2 == 0) {
+    somaPares += numero;
+    console.log(somaPares);
+  } else {
+    somaImpares += numero;
+    console.log(somaImpares);
+  }
+  numero = leitor.questionInt("Digite um numero: ");
 }
