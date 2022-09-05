@@ -1,6 +1,6 @@
 const leitor = require("readline-sync");
 
-let numero = leitor.questionInt("Digite um numero: ");
+let numero = leitor.questionInt("Digite um número: ");
 
 let somaPares = 0;
 let somaImpares = 0;
@@ -13,5 +13,5 @@ while (numero < 1000) {
     somaImpares += numero;
     console.log(somaImpares);
   }
-  numero = leitor.questionInt("Digite um numero: ");
+  numero = leitor.questionInt("Digite um número: ");
 }
