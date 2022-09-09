@@ -1,6 +1,6 @@
 const leitor = require("readline-sync");
 
-let arrayInvertido = [
+let array = [
   "abobora",
   "tomate",
   "cebola",
@@ -13,6 +13,10 @@ let arrayInvertido = [
   "mandioca",
 ];
 
-arrayInvertido.reverse();
+let arrayInvertido = [];
+
+for (let i = array.length - 1; i >= 0; i--) {
+  arrayInvertido.push(array[i]);
+}
 
 console.log(arrayInvertido);

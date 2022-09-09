@@ -7,8 +7,8 @@ for (let i = 0; i < 10; i++) {
   arrayNumeros.push(numeros);
 }
 
-let calculo = arrayNumeros.map(function (item) {
-  if (item % 2 == 0) {
+let calculo = arrayNumeros.map(function (item, indice) {
+  if (indice % 2 == 0) {
     return item / 2;
   } else {
     return item * 3;
