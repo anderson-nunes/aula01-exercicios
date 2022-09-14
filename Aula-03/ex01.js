@@ -1,13 +1,13 @@
 const leitor = require("readline-sync");
 
-let arrayNumeros = [];
+let array = [];
 
-for (let i = 0; i < 6; i++) {
-  let numeros = leitor.questionInt("Digite 10 numeros inteiros: ");
-  arrayNumeros.push(numeros);
+for (let i = 0; i < 5; i++) {
+  let numeros = leitor.questionInt("Digite alguns números: ");
+  array.push(numeros);
 }
 
-let numerosCrescente = arrayNumeros.sort((a, b) => {
+let numerosCrescente = array.sort((a, b) => {
   if (a < b) {
     return -1;
   }
@@ -19,7 +19,7 @@ let numerosCrescente = arrayNumeros.sort((a, b) => {
 
 console.log(numerosCrescente);
 
-let numerosDecrescente = arrayNumeros.sort((a, b) => {
+let numerosDecrescente = array.sort((a, b) => {
   if (a < b) {
     return 1;
   }
@@ -30,14 +30,3 @@ let numerosDecrescente = arrayNumeros.sort((a, b) => {
 });
 
 console.log(numerosDecrescente);
-
-// let numerosCrescente = arrayNumeros.sort(function (a, b) {
-//   return a - b;
-// });
-
-// let numerosDecrescente = arrayNumeros.sort(function (a, b) {
-//   return b - a;
-// });
-
-// console.log(numerosCrescente);
-// console.log(numerosDecrescente);
